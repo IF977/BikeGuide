@@ -1,17 +1,16 @@
 # BikeGuide
-## Descrição do produto
+Projeto didático-prático da disciplina (IF977) Engenharia de Software, do curso de graduação em Sistemas de Informação do Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE)
 
-BikeGuide é uma aplicação Web que tem como premissa informar ao usuário onde encontrar pontos de ciclofaixa, aluguel de bicicletas e
-manutenção das mesmas, sugestão de rotas seguras (através do cruzamento de dados sobre segurança no recife), sugestão de atrações turísticas, trilhas e atividades relacionadas ao ciloativismo auxiliando no dia a dia do ciclista(nosso público alvo) recifense.
+## Descrição do produto
+Com as crescentes ondas de violência e assaltos na grande Recife, nosso público alvo - ciclistas de Recife - se vê cada vez menos seguro para realizar sua atividade, seja por lazer ou prática esportiva. BikeGuide vem como uma solução para tentar amenizar isto. 
+BikeGuide é uma aplicação Web que tem como premissa informar ao usuário onde encontrar pontos de ciclofaixa, aluguel de bicicletas e manutenção das mesmas, sugestão de rotas seguras (através do cruzamento de dados sobre segurança no recife), sugestão de atrações turísticas, trilhas e atividades relacionadas ao ciloativismo auxiliando no dia a dia do ciclista(nosso público alvo) recifense.
+Através do cruzamento de dados sobre violência e acidentes de trânsito envolvendo ciclistas, esperamos poder sugerir a rota mais segura para o usuário, juntamente com diversas informações que possa vim a ajudar ele nos seu arredores - i.e. os pontos de aluguel de bicicleta mais perto, pontos turísticos e etc -, esperando, assim, levar ao máximo sua experiência sobre duas rodas na cidade do Recife. 
 
 ## Justificativa
 
-BikeGuide se diferencia dos demais concorrentes pois a aplicação informa os locais próximos ao usuário com base em sua localização onde
-pode encontrar aluguel de bicicletas, ciclofaixas, postos de calibragem e oficinas de manutenção. Sendo assim, o usuário irá entrar no
-site com o desejo de achar essas informações como um suporte diário das suas atividades ciclisticas.
+BikeGuide vem com a proposta de melhorar a experiência do ciclista na grande Recife. Além de sugerir informações sobre pontos de alugueis de bicicletas e locais para manutenção, ciclovias, pontos turísticos e trilhas baseados em sua localização, o BikeGuide também faz utilização de dados abertos sobre mapa da segurança e acidentes envolvendo ciclistas no Recife podendo, assim, através de machine learning, sugerir a melhor rota para o usuário, aquela na qual ele estará menos sujeito a assaltos e de se envolver em um possível acidente.
 
 ## Especificação do papel de cada membro
 
 ####Bernardo Melo - Developer. ####Cintila Vasconcelos - Developer ####Gabriely Almirante - Developer ####Thiago Guimaraes - Project
 Manager
-Projeto didático-prático da disciplina (IF977) Engenharia de Software, do curso de graduação em Sistemas de Informação do Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE)
