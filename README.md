@@ -2,7 +2,7 @@
 ## Descrição do produto
 
 BikeGuide é uma aplicação Web que tem como premissa informar ao usuário onde encontrar pontos de ciclofaixa, aluguel de bicicletas e
-manutenção das mesmas, auxiliando no dia a dia do ciclista(nosso público alvo) recifense.
+manutenção das mesmas, sugestão de rotas mais seguras cruzando os dados conhecidos com dados sobre segurança no recife, sugestão de atrações turísticas, trilhas e atividades relacionadas ao ciloativismo, auxiliando no dia a dia do ciclista(nosso público alvo) recifense.
 
 ## Justificativa
 
@@ -14,3 +14,5 @@ site com o desejo de achar essas informações como um suporte diário das suas 
 
 ####Bernardo Melo - Developer. ####Cintila Vasconcelos - Developer ####Gabriely Almirante - Developer ####Thiago Guimaraes - Project
 Manager
+
+Projeto didático-prático da disciplina (IF977) Engenharia de Software, do curso de graduação em Sistemas de Informação do Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE)
