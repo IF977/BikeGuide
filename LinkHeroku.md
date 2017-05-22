@@ -1,2 +1,2 @@
 ## Link no Heroku
-https://bikeguide.herokuapp.com/index.html
+https://bike-guide.herokuapp.com/
