@@ -1,1 +1,1 @@
-<?php header( 'Location: /index.html.erb' ) ;  ?>
+<?php header( 'Location: /BikeGuide/app/views/pages/index.html.erb' ) ;  ?>
