@@ -1,1 +1,7 @@
 alo alo
+
+https://www.sitepoint.com/authenticating-google/
+
+https://github.com/zquestz/omniauth-google-oauth2
+
+http://marceloboth.github.io/2014/09/crud-com-rails-criando-um-cadastro-usando-rspec/
