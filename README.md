@@ -13,5 +13,4 @@ BikeGuide vem com a proposta de melhorar a experiência do ciclista na grande Re
 
 ## Especificação do papel de cada membro
 
-####Bernardo Melo - Developer. ####Cintila Vasconcelos - Developer ####Gabriely Almirante - Developer ####Thiago Guimaraes - Project
-Manager
+####Bernardo Melo - Developer. ####Cintila Vasconcelos - Developer ####Gabriely Almirante - Developer ####Thiago Guimaraes - Project Manager
