@@ -8,8 +8,44 @@ Rails.application.routes.draw do
   get 'pages/contato' => 'pages#contato'
   get 'pages/sobrenos' => 'pages#sobrenos'
   
+
+  get 'omniauth/callbacks'
+
+  get 'session/new'
+
+  #root to: 'sessions#new'
+  resources :sessions, only: :index
+  get "/auth/:provider/callback" => 'sessions#create'
+
+
+  get 'omniauth/callbacks'
+
+  resources :users
+  get    'sign_in'   => 'sessions#new'
+  post   'sign_in'   => 'sessions#create'
+  delete 'sign_out'  => 'sessions#destroy'
+
+  get 'omniauth/callbacks'
+  
+  resources :users
+
   # root 'welcome#index'
   
+  get 'session/new'
+
+  get 'sessions/controller'
+  
+  
+  get 'omniauth/callbacks'
+
+  get 'session/new'
+  resources :sessions, only: :index
+  get "/auth/:provider/callback" => 'sessions#create'
+
+
+ 
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
