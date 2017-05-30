@@ -1,3 +1,104 @@
+<!DOCTYPE html>
+<!--
+Template Name: BikeGuide
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html lang="">
+<head>
+<title>BikeGuide</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all" id="Teste">
+</head>
+<body id="top">
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+
+    <div class="fl_right">
+      <ul>
+        <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ --> 
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="index">BikeGuide</a></h1>
+    </div>
+    <div id="quickinfo" class="fl_right">
+      <ul class="nospace inline">
+        <li><strong>Equipe BikeGuide:</strong><br>
+          +55 (81) 3265 0168</li>
+        <li><strong>Lee Adama</strong><br>
+          +55 (81) 3456 6654</li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ --> 
+  </header>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <nav id="mainav" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="#">Perfil de Usuário</a></li>
+      <li><a href="#">Histórico</a></li>
+      <li><a href="#">Favoritos</a></li>
+    </ul>
+    <!-- ################################################################################################ --> 
+  </nav>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
 <% @auth.each do |key, value| %>
   <h1><%= key %> </h1>
   <p><%= value %> </p>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body --> 
+    <!-- ################################################################################################ -->
+    <ul class="nospace group">
+      <li class="one_third first">
+        <article><i class="btmspace-30 fa fa-4x fa-american-sign-language-interpreting"></i>
+          <footer><a class="btn" href="contato">Contato &rsaquo;</a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><i class="btmspace-30 fa fa-4x fa-resistance"></i>
+          <footer><a class="btn" href="sobrenos">Sobre Nós &rsaquo;</a></footer>
+        </article>
+      </li>
+    </ul>
+    
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
+<!-- JAVASCRIPTS --> 
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

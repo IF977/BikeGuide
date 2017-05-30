@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   get 'omniauth/callbacks'
 
-  get 'session/new'
+  get 'session/new' => 'session#new'
 
   #root to: 'sessions#new'
   resources :sessions, only: :index
