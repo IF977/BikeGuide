@@ -2985,3 +2985,1583 @@ Processing by PagesController#sobrenos as HTML
 Completed 200 OK in 3ms (Views: 2.3ms)
 
 
+Started GET "/" for 10.240.0.187 at 2017-06-04 20:06:24 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (13.7ms)
+Completed 200 OK in 257ms (Views: 22.6ms)
+
+
+Started GET "/pages/contato" for 10.240.1.20 at 2017-06-04 20:06:39 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#contato as HTML
+  Rendering pages/contato.html.erb
+  Rendered pages/contato.html.erb (0.5ms)
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started GET "/pages/index.html" for 10.240.1.15 at 2017-06-04 20:06:43 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/index.html"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/index.html" for 10.240.0.241 at 2017-06-04 20:07:41 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/pages/index.html" for 10.240.0.204 at 2017-06-04 20:08:01 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/pages/index.html" for 10.240.0.204 at 2017-06-04 20:08:08 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/index.html"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/index.html.erb" for 10.240.0.204 at 2017-06-04 20:08:16 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/index.html.erb"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to SorceryCore (20170605121303)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar NOT NULL, "crypted_password" varchar, "salt" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170605121303"]]
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-06-05 12:13:28.849334"], ["updated_at", "2017-06-05 12:13:28.849334"]]
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/" for 10.240.0.182 at 2017-06-05 12:32:57 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (2.1ms)
+Completed 200 OK in 21ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 10.240.0.182 at 2017-06-05 12:32:59 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users" for 10.240.0.186 at 2017-06-05 12:33:04 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'EmailFormatValidator'):
+  
+app/models/user.rb:4:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+app/controllers/users_controller.rb:7:in `index'
+Started GET "/users" for 10.240.1.64 at 2017-06-05 12:33:41 +0000
+Cannot render console from 10.240.1.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (4.4ms)
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/new" for 10.240.0.207 at 2017-06-05 12:33:44 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/new.html.erb (2.7ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_errors with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+    1: <h1>Registration</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4:   <%= render 'shared/errors', object: @user %>
+    5:   <div class="form-group">
+    6:     <%= f.label :name %>
+    7:     <%= f.text_field :name, class: 'form-control', required: true %>
+  
+app/views/users/new.html.erb:4:in `block in _app_views_users_new_html_erb___4503154992922396791_69838920153200'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___4503154992922396791_69838920153200'
+Started GET "/users/new" for 10.240.0.186 at 2017-06-05 12:35:11 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/new.html.erb (17.5ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x000000035fd7e8>):
+    3: <%= form_for @user do |f| %>
+    4:   <div class="form-group">
+    5:     <%= f.label :name %>
+    6:     <%= f.text_field :name, class: 'form-control', required: true %>
+    7:   </div>
+    8: 
+    9:   <div class="form-group">
+  
+app/views/users/new.html.erb:6:in `block in _app_views_users_new_html_erb___4503154992922396791_28300700'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___4503154992922396791_28300700'
+Started GET "/" for 10.240.1.19 at 2017-06-05 12:46:52 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.4ms)
+Completed 200 OK in 13ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 10.240.1.32 at 2017-06-05 12:46:54 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.8ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/new" for 10.240.1.19 at 2017-06-05 12:46:56 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (187.4ms)
+  Rendered users/new.html.erb (188.8ms)
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00000005fe2130>:0x007fbac40a0ad8>):
+    17:   </div>
+    18: 
+    19:   <div class="field">
+    20:     <%= f.label :password %><br />
+    21:     <%= f.password_field :password %>
+    22:   </div>
+    23:   
+  
+app/views/users/_form.html.erb:20:in `block in _app_views_users__form_html_erb__4282234340149632259_70220064871400'
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__4282234340149632259_70220064871400'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__3330640763659874343_70220064819800'
+Started GET "/users/new" for 10.240.0.186 at 2017-06-05 12:50:51 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (4.6ms) [cache miss]
+  Rendered users/new.html.erb (5.9ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.1.20 at 2017-06-05 12:51:06 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A2k2hlTrs75PkUvlCwzfnMCFhQyx2/mYxqLYel/Y1hlbYzRf2ne/ICyve6+5MRY0+SpgMWf7H/mpTYBdQIkOFQ==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bernardo@bol.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "crypted_password", "salt", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "bernardo@bol.com"], ["crypted_password", "$2a$10$W.Zew9HFEFg9r4mMEi6dIeYIq9xkdKClN/JPnw3I0iLVpnIoDwjCS"], ["salt", "9kNzGQvBL_hwv7h94-WT"], ["created_at", "2017-06-05 12:51:06.849344"], ["updated_at", "2017-06-05 12:51:06.849344"]]
+  [1m[35m (10.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://bike-guide-thiagothunder.c9users.io:8080/users/1
+Completed 302 Found in 91ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/users/1" for 10.240.0.179 at 2017-06-05 12:51:07 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb
+  Rendered users/show.html.erb (1.1ms)
+Completed 200 OK in 10ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 10.240.1.17 at 2017-06-05 12:51:16 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.1ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1/edit" for 10.240.0.207 at 2017-06-05 12:51:20 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/edit.html.erb
+  Rendered users/_form.html.erb (4.2ms) [cache miss]
+  Rendered users/edit.html.erb (6.2ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 10.240.0.207 at 2017-06-05 12:51:23 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb
+  Rendered users/show.html.erb (0.9ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 10.240.0.187 at 2017-06-05 12:51:25 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.7ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 10.240.0.186 at 2017-06-05 12:52:46 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.1ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 10.240.0.119 at 2017-06-05 12:53:34 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (2.8ms) [cache miss]
+  Rendered users/new.html.erb (4.1ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.182 at 2017-06-05 12:53:51 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H0mNBNtdDEKxsO6xgZULdyRUOWIf7YAiqwB3ualVxYJHQ4/dVcEA3NKO3vszqMLfHfvcX8nNZkPE7y+etgQdjg==", "user"=>{"email"=>"thiagay@gay.gay", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "thiagay@gay.gay"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "crypted_password", "salt", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "thiagay@gay.gay"], ["crypted_password", "$2a$10$nmc7yDmb07W.1YnhbeVbLOdwx/2SOrlCfVIEuo8gChEF/upVVTIwu"], ["salt", "mPTspvKaQiozBJ5ebvkh"], ["created_at", "2017-06-05 12:53:51.647602"], ["updated_at", "2017-06-05 12:53:51.647602"]]
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://bike-guide-thiagothunder.c9users.io:8080/users/2
+Completed 302 Found in 83ms (ActiveRecord: 10.9ms)
+
+
+Started GET "/users/2" for 10.240.0.186 at 2017-06-05 12:53:51 +0000
+Cannot render console from 10.240.0.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering users/show.html.erb
+  Rendered users/show.html.erb (1.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 10.240.0.182 at 2017-06-05 12:53:57 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.240.0.179 at 2017-06-05 13:21:56 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (13.6ms)
+Completed 500 Internal Server Error in 180ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+    2: <html>
+    3:   <head>
+    4:     <title>Tutorial</title>
+    5:       <%= stylesheet_link_tag    "application" %>
+    6:       <%= javascript_include_tag "application" %>
+    7:       <%= csrf_meta_tags %>
+    8:   </head>
+  
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2444228807420586151_69987769135540'
+Started GET "/" for 10.240.1.60 at 2017-06-05 13:25:51 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.4ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 10.240.1.32 at 2017-06-05 13:25:53 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (216.4ms)
+  Rendered users/new.html.erb (218.4ms)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x00000004e5ba10>:0x007f4e98482e28>
+Did you mean?  @user):
+    1: <%= form_with(model: user, local: true) do |form| %>
+    2:   <% if user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___3695414397032826826_69987769580120'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987769523200'
+Started GET "/users/new" for 10.240.1.17 at 2017-06-05 13:26:40 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (168.5ms)
+  Rendered users/new.html.erb (169.6ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x00000004e5ba10>:0x007f4e84022360>
+Did you mean?  @user):
+    1: <%= form_with(model: @user, local: true) do |form| %>
+    2:   <% if user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+    5: 
+  
+app/views/users/_form.html.erb:2:in `block in _app_views_users__form_html_erb___3695414397032826826_69987772400640'
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___3695414397032826826_69987772400640'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987599455900'
+Started GET "/users/new" for 10.240.0.182 at 2017-06-05 13:26:56 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (19.5ms) [cache miss]
+  Rendered users/new.html.erb (20.8ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user_sessions" for 10.240.1.19 at 2017-06-05 13:27:23 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M201s7WQKX8P4KGrK0nI8OV2/v/7P7mlHOlsJWHFqRHeNQmJJyvmnrpK9/I/PxzHvDGsrwpuFHwFbmEBqUQM7g==", "email"=>"thiagay@gay.gay", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = 'thiagay@gay.gay' ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Redirected to http://bike-guide-thiagothunder.c9users.io:8080/users
+Completed 302 Found in 138ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 10.240.0.206 at 2017-06-05 13:27:24 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.7ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.240.0.179 at 2017-06-05 13:28:06 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (3.4ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/new" for 10.240.1.20 at 2017-06-05 13:28:12 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (4.0ms) [cache miss]
+  Rendered users/new.html.erb (5.2ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.187 at 2017-06-05 13:28:14 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lOgDkv9te/eVPrboTX9W/leUGSjOb0kF8bHGW7Nqst3M4gFLcfF3afYAhqL/Qp9Wbjv8FRhPr2SeXp58rDtq0Q==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (361.6ms)
+  Rendered users/new.html.erb (362.7ms)
+Completed 500 Internal Server Error in 377ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x00000004e5ba10>:0x007f4e99814040>
+Did you mean?  @user):
+    1: <%= form_with(model: @user, local: true) do |form| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+    5: 
+    6:       <ul>
+    7:       <% user.errors.full_messages.each do |message| %>
+  
+app/views/users/_form.html.erb:4:in `block in _app_views_users__form_html_erb___3695414397032826826_69987780193780'
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___3695414397032826826_69987780193780'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987780127000'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.0.204 at 2017-06-05 13:28:23 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lOgDkv9te/eVPrboTX9W/leUGSjOb0kF8bHGW7Nqst3M4gFLcfF3afYAhqL/Qp9Wbjv8FRhPr2SeXp58rDtq0Q==", "user"=>{"email"=>"hyhh", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "hyhh"], ["LIMIT", 1]]
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "crypted_password", "salt", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "hyhh"], ["crypted_password", "$2a$10$uG87Y03MGfwL.G5KPq5cH.Vah492JVkAtKigv3zYhHuNwlABPakmi"], ["salt", "Xq7f6vA6ub8-vLKTcNa8"], ["created_at", "2017-06-05 13:28:23.713190"], ["updated_at", "2017-06-05 13:28:23.713190"]]
+  [1m[35m (10.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://bike-guide-thiagothunder.c9users.io:8080/users/3
+Completed 302 Found in 83ms (ActiveRecord: 11.8ms)
+
+
+Started GET "/users/3" for 10.240.1.32 at 2017-06-05 13:28:24 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb
+  Rendered users/show.html.erb (0.9ms)
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 10.240.1.32 at 2017-06-05 13:28:27 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 10.240.0.110 at 2017-06-05 13:28:47 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (10.3ms)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 10.240.1.64 at 2017-06-05 13:28:51 +0000
+Cannot render console from 10.240.1.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (0.5ms)
+Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.240.1.64 at 2017-06-05 13:35:37 +0000
+Cannot render console from 10.240.1.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.1.19 at 2017-06-05 13:35:39 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"RhOzXi6Bxksw3GDUlimCeGhy9xqd9u1iDWTrC9qIAZ8eGbGHoB3K1VPiUJ4kFEvQUd0SJ0vWCwNii7MsxdnZkw=="}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:72:in `user_params'
+app/controllers/users_controller.rb:27:in `create'
+Started POST "/users" for 10.240.1.64 at 2017-06-05 13:36:32 +0000
+Cannot render console from 10.240.1.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"RhOzXi6Bxksw3GDUlimCeGhy9xqd9u1iDWTrC9qIAZ8eGbGHoB3K1VPiUJ4kFEvQUd0SJ0vWCwNii7MsxdnZkw=="}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:72:in `user_params'
+app/controllers/users_controller.rb:27:in `create'
+Started POST "/users" for 10.240.1.19 at 2017-06-05 13:37:43 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"RhOzXi6Bxksw3GDUlimCeGhy9xqd9u1iDWTrC9qIAZ8eGbGHoB3K1VPiUJ4kFEvQUd0SJ0vWCwNii7MsxdnZkw=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (280.1ms)
+  Rendered users/new.html.erb (281.2ms)
+Completed 500 Internal Server Error in 298ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007f4e8411da30>:0x007f4e90abfca8>
+Did you mean?  @user):
+    1: <%= form_with(model: user, local: true) do |form| %>
+    2:   <% if user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___3695414397032826826_69987706532000'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987705680340'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.1.32 at 2017-06-05 13:37:59 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"RhOzXi6Bxksw3GDUlimCeGhy9xqd9u1iDWTrC9qIAZ8eGbGHoB3K1VPiUJ4kFEvQUd0SJ0vWCwNii7MsxdnZkw=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (181.0ms)
+  Rendered users/new.html.erb (182.1ms)
+Completed 500 Internal Server Error in 188ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007f4e8411da30>:0x007f4e9888b790>
+Did you mean?  @user):
+    1: <%= form_with(model: @user, local: true) do |form| %>
+    2:   <% if @user.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+    5: 
+    6:       <ul>
+    7:       <% user.errors.full_messages.each do |message| %>
+  
+app/views/users/_form.html.erb:4:in `block in _app_views_users__form_html_erb___3695414397032826826_69987771854200'
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___3695414397032826826_69987771854200'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987771631720'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.1.64 at 2017-06-05 13:38:18 +0000
+Cannot render console from 10.240.1.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"RhOzXi6Bxksw3GDUlimCeGhy9xqd9u1iDWTrC9qIAZ8eGbGHoB3K1VPiUJ4kFEvQUd0SJ0vWCwNii7MsxdnZkw=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (5.4ms) [cache miss]
+  Rendered users/new.html.erb (7.4ms)
+Completed 200 OK in 16ms (Views: 9.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 10.240.1.64 at 2017-06-05 13:38:33 +0000
+Cannot render console from 10.240.1.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Y7D/+HYYUOGHzv6YNyplrQ4StMVxDNrJcTCAzgofw6xhMEmb0Rt3eUhC7DS4WA+jZev7sPk1QpKK5okJ3mnAg==", "user"=>{"email"=>"wdqwdqw", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (5.8ms) [cache miss]
+  Rendered users/new.html.erb (7.9ms)
+Completed 200 OK in 18ms (Views: 10.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users" for 10.240.0.69 at 2017-06-05 13:38:47 +0000
+Cannot render console from 10.240.0.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hIA0NB6TBBfinGWDWY8ATG9pVJJ571AOqFv+IV74a6DcijbtkA8IiYGiVcnrssnkVsaxr6/Ptm/HtKYGQamzrA==", "user"=>{"email"=>"thiagay@gay.gay", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.3ms) [cache miss]
+  Rendered users/new.html.erb (4.4ms)
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 10.240.1.19 at 2017-06-05 13:39:44 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hIA0NB6TBBfinGWDWY8ATG9pVJJ571AOqFv+IV74a6DcijbtkA8IiYGiVcnrssnkVsaxr6/Ptm/HtKYGQamzrA==", "user"=>{"email"=>"thiagay@gay.gay", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (1.5ms)
+  Rendered users/new.html.erb (2.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/users/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/users/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987702706920'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.0.119 at 2017-06-05 13:39:58 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hIA0NB6TBBfinGWDWY8ATG9pVJJ571AOqFv+IV74a6DcijbtkA8IiYGiVcnrssnkVsaxr6/Ptm/HtKYGQamzrA==", "user"=>{"email"=>"thiagay@gay.gay", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (0.7ms)
+  Rendered users/new.html.erb (1.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/users/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/users/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987705568560'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.1.17 at 2017-06-05 13:40:29 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hIA0NB6TBBfinGWDWY8ATG9pVJJ571AOqFv+IV74a6DcijbtkA8IiYGiVcnrssnkVsaxr6/Ptm/HtKYGQamzrA==", "user"=>{"email"=>"thiagay@gay.gay", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (0.7ms)
+  Rendered users/new.html.erb (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/users/_form.html.erb:19: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/users/_form.html.erb:19: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987768977660'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.1.17 at 2017-06-05 13:40:36 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hIA0NB6TBBfinGWDWY8ATG9pVJJ571AOqFv+IV74a6DcijbtkA8IiYGiVcnrssnkVsaxr6/Ptm/HtKYGQamzrA==", "user"=>{"email"=>"thiagay@gay.gay", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (191.7ms)
+  Rendered users/new.html.erb (192.8ms)
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x007f4e8411da30>:0x007f4e90adedb0>
+Did you mean?  format
+               formats
+               form_tag
+               form_for
+               formats=
+               form_with
+               fork):
+    1: 
+    2: <div class="field">
+    3:   <%= form.label :email %>
+    4:   <%= form.text_field :email, id: :user_email %>
+    5: </div>
+    6: <div class="field">
+  
+app/views/users/_form.html.erb:3:in `_app_views_users__form_html_erb___3695414397032826826_69987609620100'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__1321241558165088188_69987705744660'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started GET "/" for 10.240.1.19 at 2017-06-05 13:50:12 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (2.3ms)
+Completed 200 OK in 14ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.204 at 2017-06-05 13:50:13 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"njku6C7zBIBk5eAlSagV0JinG25R1xTDislpj6ZOxSnGMywxoG8IHgfb0G/7ldx4oQj+U4f38qLlJjGouR8dJQ=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (286.5ms)
+  Rendered users/new.html.erb (288.0ms)
+Completed 500 Internal Server Error in 313ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fbc3c219968>:0x000000057b5ae8>):
+    17:   </div>
+    18: 
+    19:   <div class="field">
+    20:    <%= f.label :password %><br />
+    21:    <%= f.password_field :password %>
+    22:   </div>
+    23:   <div class="field">
+  
+app/views/users/_form.html.erb:20:in `block in _app_views_users__form_html_erb___4392388376450406579_70223219777320'
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___4392388376450406579_70223219777320'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___3032159345148677272_70223219744500'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.0.182 at 2017-06-05 13:50:38 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"njku6C7zBIBk5eAlSagV0JinG25R1xTDislpj6ZOxSnGMywxoG8IHgfb0G/7ldx4oQj+U4f38qLlJjGouR8dJQ=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (4.4ms) [cache miss]
+  Rendered users/new.html.erb (5.5ms)
+Completed 200 OK in 12ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 10.240.0.206 at 2017-06-05 13:50:54 +0000
+Cannot render console from 10.240.0.206! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vFagZfsiIsWMEbPl1fxsI4CT8URfRNydhJWbO9iN5mrkXKK8db4uW+8vg69nwaWLuTwUeYlkOvzresMcx9w+Zg==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.4ms) [cache miss]
+  Rendered users/new.html.erb (4.8ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 10.240.0.207 at 2017-06-05 13:51:01 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9VoLeI8LyHQCYsP5Mj1lh3JwyvltVqWO17gleNoJogT32r0bKAjv7M3u0VW9Tw+JGYmFjOVvPdUsbiy/Dn+hA==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (4.6ms) [cache miss]
+  Rendered users/new.html.erb (6.0ms)
+Completed 200 OK in 13ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 10.240.0.69 at 2017-06-05 13:51:12 +0000
+Cannot render console from 10.240.0.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9VoLeI8LyHQCYsP5Mj1lh3JwyvltVqWO17gleNoJogT32r0bKAjv7M3u0VW9Tw+JGYmFjOVvPdUsbiy/Dn+hA==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (1.3ms)
+  Rendered users/new.html.erb (2.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/users/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/users/_form.html.erb:22: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___3032159345148677272_70223221937820'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.1.20 at 2017-06-05 13:51:21 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9VoLeI8LyHQCYsP5Mj1lh3JwyvltVqWO17gleNoJogT32r0bKAjv7M3u0VW9Tw+JGYmFjOVvPdUsbiy/Dn+hA==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (213.0ms)
+  Rendered users/new.html.erb (214.6ms)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x007fbc3c219968>:0x007fbc4c1e0838>
+Did you mean?  format
+               formats
+               form_tag
+               form_for
+               formats=
+               form_with
+               fork):
+    1: 
+    2: 
+    3:   <div class="field">
+    4:     <%= form.label :email %>
+    5:     <%= form.text_field :email, id: :user_email %>
+    6:   </div>
+    7: 
+  
+app/views/users/_form.html.erb:4:in `_app_views_users__form_html_erb___4392388376450406579_70223353648900'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___3032159345148677272_70223353764360'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.0.119 at 2017-06-05 13:52:06 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9VoLeI8LyHQCYsP5Mj1lh3JwyvltVqWO17gleNoJogT32r0bKAjv7M3u0VW9Tw+JGYmFjOVvPdUsbiy/Dn+hA==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (184.3ms)
+  Rendered users/new.html.erb (185.4ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fbc3c219968>:0x007fbc3c447398>):
+    17:   </div>
+    18: 
+    19:   <div class="field">
+    20:     <%= f.label :password %><br />
+    21:     <%= f.password_field :password %>
+    22:   </div>
+    23:   <div class="field">
+  
+app/views/users/_form.html.erb:20:in `block in _app_views_users__form_html_erb___4392388376450406579_70223222116600'
+app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___4392388376450406579_70223222116600'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb___3032159345148677272_70223220846600'
+app/controllers/users_controller.rb:34:in `block (2 levels) in create'
+app/controllers/users_controller.rb:29:in `create'
+Started POST "/users" for 10.240.1.32 at 2017-06-05 13:52:24 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9VoLeI8LyHQCYsP5Mj1lh3JwyvltVqWO17gleNoJogT32r0bKAjv7M3u0VW9Tw+JGYmFjOVvPdUsbiy/Dn+hA==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (2.9ms) [cache miss]
+  Rendered users/new.html.erb (4.0ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 10.240.1.64 at 2017-06-05 13:53:41 +0000
+Cannot render console from 10.240.1.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9VoLeI8LyHQCYsP5Mj1lh3JwyvltVqWO17gleNoJogT32r0bKAjv7M3u0VW9Tw+JGYmFjOVvPdUsbiy/Dn+hA==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bernardo@bol.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (2.6ms) [cache miss]
+  Rendered users/new.html.erb (3.9ms)
+Completed 200 OK in 89ms (Views: 6.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users" for 10.240.0.119 at 2017-06-05 13:53:59 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IzXdZy+zMPoy2q2XQhLOZ0r7UUdPfyig2eQNM3uTw/t7P9++oS88ZFHknd3wLwfPc1S0eplfzsG2C1UUZMIb9w==", "user"=>{"email"=>"thiaguinho@gol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "thiaguinho@gol.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "crypted_password", "salt", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "thiaguinho@gol.com"], ["crypted_password", "$2a$10$5N3baxUNKmQUrCQMwmBvQ.lxst0ycONt779MSefvowDGLI6Cj8sci"], ["salt", "vf8fnfTVhwfHbszrGAsM"], ["created_at", "2017-06-05 13:53:59.780685"], ["updated_at", "2017-06-05 13:53:59.780685"]]
+  [1m[35m (10.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://bike-guide-thiagothunder.c9users.io:8080/users/4
+Completed 302 Found in 85ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/users/4" for 10.240.1.19 at 2017-06-05 13:54:00 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb
+  Rendered users/show.html.erb (0.9ms)
+Completed 200 OK in 8ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 10.240.0.241 at 2017-06-05 13:54:02 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.7ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 10.240.0.207 at 2017-06-05 13:54:05 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb
+  Rendered users/show.html.erb (0.9ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 10.240.0.119 at 2017-06-05 13:54:07 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (2.4ms) [cache miss]
+  Rendered users/new.html.erb (3.6ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.110 at 2017-06-05 13:54:15 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FKLlwhcYLBBha54IlVIK4NuLzTo26FgubeB8iU8Yhz5MqOcbmYQgjgJVrkInb8NI4iQoB+DIvk8CDySuUElfMg==", "user"=>{"email"=>"bsdoifjsd@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "bsdoifjsd@hotmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "crypted_password", "salt", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "bsdoifjsd@hotmail.com"], ["crypted_password", "$2a$10$g5E4zOnyaG09bj3FGNQ4ku85B/kyfTlRmBKhg.TlTjqEnkPgKVgFa"], ["salt", "Ts7kr-4cT4_sbSAtT_wq"], ["created_at", "2017-06-05 13:54:15.241414"], ["updated_at", "2017-06-05 13:54:15.241414"]]
+  [1m[35m (11.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://bike-guide-thiagothunder.c9users.io:8080/users/5
+Completed 302 Found in 83ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/users/5" for 10.240.0.110 at 2017-06-05 13:54:15 +0000
+Cannot render console from 10.240.0.110! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering users/show.html.erb
+  Rendered users/show.html.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 10.240.0.241 at 2017-06-05 13:54:17 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.6ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 10.240.1.32 at 2017-06-05 13:54:18 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (2.1ms) [cache miss]
+  Rendered users/new.html.erb (3.1ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.187 at 2017-06-05 13:54:26 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k61mTUTBd2jucv2vLdxOG6CD6/BdlDhOWFHVKtrYmufLp2SUyl179o1MzeWf4YezmSwOzYu03i83vo0NxYlC6w==", "user"=>{"email"=>"qqqqqq@q.q.qq", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "qqqqqq@q.q.qq"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.0ms) [cache miss]
+  Rendered users/new.html.erb (4.1ms)
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.69 at 2017-06-05 13:54:32 +0000
+Cannot render console from 10.240.0.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (18.7ms)
+Completed 200 OK in 60ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.207 at 2017-06-05 13:54:33 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"wlvvy5+Du41erR8yYB/VbXqIclnZIQpI8SdoEXFF9/SaUe0SER+3Ez2TL3jSIhzFQyeXZA8B7CmeyDA2bhQv+A=="}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:72:in `user_params'
+app/controllers/users_controller.rb:27:in `create'
+Started POST "/users" for 10.240.0.182 at 2017-06-05 13:55:49 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"wlvvy5+Du41erR8yYB/VbXqIclnZIQpI8SdoEXFF9/SaUe0SER+3Ez2TL3jSIhzFQyeXZA8B7CmeyDA2bhQv+A=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.2ms) [cache miss]
+  Rendered users/new.html.erb (4.4ms)
+Completed 200 OK in 54ms (Views: 38.7ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users" for 10.240.0.187 at 2017-06-05 13:55:58 +0000
+Cannot render console from 10.240.0.187! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4onFSxqSuGDlVl1d5x5vs/crzPaT6FQSA2cM//n3ZpS6g8eSlA60/oZobRdVI6YbzoQpy0XIsnNsiFTY5qa+mA==", "user"=>{"email"=>"bernardo@bol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (5.3ms) [cache miss]
+  Rendered users/new.html.erb (6.5ms)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 10.240.1.15 at 2017-06-05 13:56:04 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PJ6Rcok1qctP8pN6v6vIIcGDNwpnhU5AraTZsAneuS5klJOrB6mlVSzMozANlgGJ+CzSN7GlqCHCS4GXFo9hIg==", "user"=>{"email"=>"qqqqqq@q.q.qq", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+Unpermitted parameters: :utf8, :authenticity_token, :user, :commit
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.3ms) [cache miss]
+  Rendered users/new.html.erb (4.5ms)
+Completed 200 OK in 12ms (Views: 6.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 10.240.1.19 at 2017-06-05 13:56:08 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.9ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 10.240.1.17 at 2017-06-05 13:56:09 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (2.7ms) [cache miss]
+  Rendered users/new.html.erb (4.0ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.240.0.69 at 2017-06-05 13:56:21 +0000
+Cannot render console from 10.240.0.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (0.9ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.69 at 2017-06-05 13:56:22 +0000
+Cannot render console from 10.240.0.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Tz/mGWeqMOQdfkkhovhRKyh4w/pgxmzyIDFQU/EAChIXNeTA6TY8en5AeWsQxZiDEdcmx7bmipNP3gh07lHSHg=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.6ms) [cache miss]
+  Rendered users/new.html.erb (4.9ms)
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 10.240.1.19 at 2017-06-05 13:56:24 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (3.3ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 10.240.0.119 at 2017-06-05 13:56:28 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (4.2ms) [cache miss]
+  Rendered users/new.html.erb (5.4ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 10.240.0.69 at 2017-06-05 13:56:34 +0000
+Cannot render console from 10.240.0.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (3.1ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 10.240.1.17 at 2017-06-05 13:56:37 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.8ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.207 at 2017-06-05 13:56:40 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.240.0.207 at 2017-06-05 13:56:42 +0000
+Cannot render console from 10.240.0.207! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.119 at 2017-06-05 13:56:43 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"0VJql8FVni9SJptz2CiETJi4Q5F4QNoUj67VdLvWGUeJWGhOT8mSsTEYqzlqFU3koRemrK5gPHXgQY1TpIfBSw=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.1ms) [cache miss]
+  Rendered users/new.html.erb (4.6ms)
+Completed 200 OK in 11ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 10.240.0.204 at 2017-06-05 13:58:08 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (3.2ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 10.240.1.32 at 2017-06-05 13:58:18 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"0VJql8FVni9SJptz2CiETJi4Q5F4QNoUj67VdLvWGUeJWGhOT8mSsTEYqzlqFU3koRemrK5gPHXgQY1TpIfBSw=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (4.2ms) [cache miss]
+  Rendered users/new.html.erb (5.6ms)
+Completed 200 OK in 13ms (Views: 8.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 10.240.0.119 at 2017-06-05 13:58:21 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (4.0ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 10.240.0.241 at 2017-06-05 14:03:05 +0000
+Cannot render console from 10.240.0.241! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"0VJql8FVni9SJptz2CiETJi4Q5F4QNoUj67VdLvWGUeJWGhOT8mSsTEYqzlqFU3koRemrK5gPHXgQY1TpIfBSw=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (3.1ms) [cache miss]
+  Rendered users/new.html.erb (4.3ms)
+Completed 200 OK in 12ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 10.240.1.15 at 2017-06-05 14:03:11 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"0VJql8FVni9SJptz2CiETJi4Q5F4QNoUj67VdLvWGUeJWGhOT8mSsTEYqzlqFU3koRemrK5gPHXgQY1TpIfBSw=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (2.6ms) [cache miss]
+  Rendered users/new.html.erb (3.8ms)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for 10.240.1.17 at 2017-06-05 14:03:16 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (2.6ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 10.240.0.119 at 2017-06-05 14:18:54 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (6.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (13.2ms)
+Completed 200 OK in 19ms (Views: 9.1ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/pages/index" for 10.240.1.32 at 2017-06-05 14:18:57 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/index"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/index" for 10.240.1.17 at 2017-06-05 14:19:30 +0000
+Cannot render console from 10.240.1.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/index"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users" for 10.240.1.32 at 2017-06-05 14:19:41 +0000
+Cannot render console from 10.240.1.32! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (226.9ms)
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `root' for #<#<Class:0x00000005349fe0>:0x007fbc444d93a8>):
+    25: <br>
+    26: 
+    27: <%= link_to 'New User', new_user_path %>
+    28: <%= link_to 'Voltar para página inicial', root =%>
+  
+app/views/users/index.html.erb:28:in `_app_views_users_index_html_erb___2076349482156649643_70223288258460'
+Started GET "/users" for 10.240.0.119 at 2017-06-05 14:19:55 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (4.3ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.240.1.15 at 2017-06-05 14:19:56 +0000
+Cannot render console from 10.240.1.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.4ms)
+Completed 200 OK in 110ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.182 at 2017-06-05 14:19:59 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"MuubIIdOF36BwxrMaXT+m2/VunNBo8tTInhVu7nemY1q4Zn5CdIb4OL9KobbSTczVnpfTpeDLTJNlw2cpo9BgQ=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (50.2ms) [cache miss]
+  Rendered users/new.html.erb (52.0ms)
+Completed 200 OK in 63ms (Views: 56.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 10.240.0.182 at 2017-06-05 14:20:02 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (7.9ms)
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.240.0.119 at 2017-06-05 14:20:07 +0000
+Cannot render console from 10.240.0.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.3ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.240.0.179 at 2017-06-05 14:20:40 +0000
+Cannot render console from 10.240.0.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"UCV8+FpUOuBmZbTJVn2RzD2uYPskehjAwWOzkV2fjcUIL34h1Mg2fgVbhIPkQFhkBAGFxvJa/qGujOu2Qs5VyQ=="}
+Unpermitted parameter: :authenticity_token
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb
+  Rendered users/_form.html.erb (7.0ms) [cache miss]
+  Rendered users/new.html.erb (109.8ms)
+Completed 200 OK in 121ms (Views: 113.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 10.240.1.19 at 2017-06-05 14:20:43 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb (11.1ms)
+Completed 200 OK in 27ms (Views: 16.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.240.1.60 at 2017-06-05 14:20:47 +0000
+Cannot render console from 10.240.1.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.3ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contato" for 10.240.0.204 at 2017-06-05 14:20:50 +0000
+Cannot render console from 10.240.0.204! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#contato as HTML
+  Rendering pages/contato.html.erb
+  Rendered pages/contato.html.erb (1.0ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/sobrenos" for 10.240.1.20 at 2017-06-05 14:20:53 +0000
+Cannot render console from 10.240.1.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#sobrenos as HTML
+  Rendering pages/sobrenos.html.erb
+  Rendered pages/sobrenos.html.erb (0.9ms)
+Completed 200 OK in 7ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index.html" for 10.240.1.19 at 2017-06-05 14:20:57 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/pages/index.html"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
