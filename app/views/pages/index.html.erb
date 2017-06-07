@@ -23,9 +23,9 @@ Licence URI: http://www.os-templates.com/template-terms
 
     <div class="fl_right">
       <ul>
-        <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
-        <%= button_to "Login", users_path =%>
-        <li><a href="#">Register</a></li>
+        <li><a href='index'><span class="fa fa-lg fa-home"></span></a></li>
+        <li><a><%= link_to 'Login', user_sessions_new_path =%></a></li>
+        <li><a><%= link_to 'Register', users_new_path =%></a></li>
       </ul>
     </div>
     <!-- ################################################################################################ --> 
@@ -38,7 +38,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="index">BikeGuide</a></h1>
+      <h1>BikeGuide</h1>
     </div>
     <div id="quickinfo" class="fl_right">
       <ul class="nospace inline">
@@ -58,7 +58,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li class="active"><a href="index.html">Home</a></li>
+      <li class="active"><%= link_to 'Home', root_path =%></li>
       <li><a href="#">Perfil de Usuário</a></li>
       <li><a href="#">Histórico</a></li>
       <li><a href="#">Favoritos</a></li>
@@ -87,12 +87,14 @@ Licence URI: http://www.os-templates.com/template-terms
     <ul class="nospace group">
       <li class="one_third first">
         <article><i class="btmspace-30 fa fa-4x fa-american-sign-language-interpreting"></i>
-          <footer><a class="btn" href=pages/contato>Contato &rsaquo;</a></footer>
+        <%= button_to "Contato", pages_contato_path, :id => "btn",
+      :class => "btn", :method => :get %>
         </article>
       </li>
       <li class="one_third">
         <article><i class="btmspace-30 fa fa-4x fa-resistance"></i>
-          <footer><a class="btn" href=pages/sobrenos>Sobre Nós &rsaquo;</a></footer>
+          <%= button_to "Sobrenos", pages_sobrenos_path, :id => "btn",
+      :class => "btn", :method => :get %>
         </article>
       </li>
     </ul>
