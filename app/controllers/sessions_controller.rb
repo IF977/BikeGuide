@@ -5,18 +5,21 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by_email(params[:email])
     if user && user.authenticate(params[:password])
+        sign_in(@user)
         session[:user_id] = users.id
-        #redirect_to root_url, notice: "Logged in!"
-        redirect_to 'pages/perfil'
-        else
-        flash.now.alert = "Email or password is invalid"
-        render "new"
+        
+          
+        
+    else
+        flash.now.alert = "Email ou senha inválidos"
+    render "pages/perfil"
     end
   end
 
   def destroy
+    sign_out
     session[:user_id] = nil
-    redirect_to root_url, notice: "Logged out!"
+    redirect_to root_url, notice: "Você saiu do BikeGuide!"
 
   end
 end
