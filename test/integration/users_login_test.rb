@@ -28,8 +28,3 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
   end
 end
 
-Visit the login path.
-Post valid information to the sessions path.
-Verify that the login link disappears.
-Verify that a logout link appears
-Verify that a profile link appears.
