@@ -46367,3 +46367,28 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 10.240.1.19 at 2017-06-21 13:49:56 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+  Rendered pages/index.html.erb (1.8ms)
+Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contato" for 10.240.0.182 at 2017-06-21 13:50:17 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#contato as HTML
+  Rendering pages/contato.html.erb
+  Rendered pages/contato.html.erb (0.9ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/perfil" for 10.240.0.182 at 2017-06-21 13:50:23 +0000
+Cannot render console from 10.240.0.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#perfil as HTML
+  Rendering pages/perfil.html.erb
+  Rendered pages/perfil.html.erb (1.4ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
