@@ -24,13 +24,10 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="fl_right">
       <ul>
         <li><a href='index'><span class="fa fa-lg fa-home"></span></a></li>
-        <% if session[:user_id] != nil %>
-        <% @user = current_user %>
-        <li> Olá, <%= @user.email %></li>
-        <% else %>
+        
         <li><%= link_to "Login", login_path %></li>
         <li><%= link_to "Registrar", new_user_path %></li>
-        <% end %>
+        
       </ul>
     </div>
     <!-- ################################################################################################ --> 
@@ -64,7 +61,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <ul class="clear">
       <li class="active"><%= link_to 'Home', root_path =%></li>
-      <li><a href="#">Perfil de Usuário</a></li>
+      <li><a href="editar">Perfil do usuário</a></li>
       <li><a href="#">Histórico</a></li>
       <li><a href="#">Favoritos</a></li>
     </ul>
@@ -74,7 +71,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ -->
-<iframe src="https://www.google.com/maps/d/embed?mid=1HCHZx6FTiMuE51TX-4p2f0J_TqQ" width="1366" height="490"></iframe>
+<div>
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1HCHZx6FTiMuE51TX-4p2f0J_TqQ" width="1300" height="520"></iframe>
+</div>
+<!-- ################################################################################################ --> 
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ -->
 <div class="wrapper row3">

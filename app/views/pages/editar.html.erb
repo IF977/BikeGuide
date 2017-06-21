@@ -1,27 +1,96 @@
+<!DOCTYPE html>
+<!--
+Template Name: BikeGuide
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html lang="">
+<head>
+<title>BikeGuide</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all" id="Teste">
+</head>
+<body id="top">
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+
+    <div class="fl_right">
+      <ul>
+        
+        <li><a href='pages/index'><span class="fa fa-lg fa-home"></span></a></li>
+        <% if session[:user_id] != nil %>
+        <% @user = User.find(session[:user_id]) %>
+        <li> Olá, <%= @user.email %></li>
+        <% end %>
+        <li><%= link_to "Sair", log_out %></li> 
+      </ul>
+    </div>
+    <!-- ################################################################################################ --> 
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1>BikeGuide</h1>
+    </div>
+    <div id="quickinfo" class="fl_right">
+      <ul class="nospace inline">
+        <li><strong>Equipe BikeGuide:</strong><br>
+          +55 (81) 3265 0168</li>
+        <li><strong>Lee Adama</strong><br>
+          +55 (81) 3456 6654</li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ --> 
+  </header>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <nav id="mainav" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+      <li class="active"><%= link_to 'Home', root_path =%></li>
+      <li><a href="#">Perfil de Usuário</a></li>
+      <li><a href="#">Histórico</a></li>
+      <li><a href="#">Favoritos</a></li>
+    </ul>
+    <!-- ################################################################################################ --> 
+  </nav>
+  <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+</div>
+</body>
 <div class="container">
-    <h1>Edit Profile</h1>
+    <h1>Editar Perfil</h1>
   	<hr>
 	<div class="row">
       <!-- left column -->
-      <div class="col-md-3">
-        <div class="text-center">
-          <img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
-          <h6>Upload a different photo...</h6>
-          
-          <input type="file" class="form-control">
-        </div>
-      </div>
-      <h3>Personal info</h3>
+      
+      
         
         <form class="form-horizontal" role="form">
           <div class="form-group">
-            <label class="col-lg-3 control-label">First name:</label>
+            <label class="col-lg-3 control-label">Nome:</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" value="">
             </div>
           </div>
           <div class="form-group">
-            <label class="col-lg-3 control-label">Last name:</label>
+            <label class="col-lg-3 control-label">Sobrenome:</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" value="">
             </div>
@@ -40,13 +109,13 @@
             </div>
           </div>
           <div class="form-group">
-            <label class="col-md-3 control-label">Password:</label>
+            <label class="col-md-3 control-label">Senha:</label>
             <div class="col-md-8">
               <input class="form-control" type="password" value="">
             </div>
           </div>
           <div class="form-group">
-            <label class="col-md-3 control-label">Confirm password:</label>
+            <label class="col-md-3 control-label">Confirmar Senha:</label>
             <div class="col-md-8">
               <input class="form-control" type="password" value="">
             </div>
@@ -54,9 +123,9 @@
           <div class="form-group">
             <label class="col-md-3 control-label"></label>
             <div class="col-md-8">
-              <input type="button" class="btn btn-primary" value="Save Changes">
+              <input type="button" class="btn btn-primary" value="Salvar">
               <span></span>
-              <input type="reset" class="btn btn-default" value="Cancel">
+              <input type="reset" class="btn btn-default" value="Cancelar">
             </div>
           </div>
         </form>
@@ -64,3 +133,35 @@
   </div>
 </div>
 <hr>
+
+
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body --> 
+    <!-- ################################################################################################ -->
+    <ul class="nospace group">
+      <li class="one_third first">
+        <article><i class="btmspace-30 fa fa-4x fa-american-sign-language-interpreting"></i>
+          <footer><a class="btn" href="contato">Contato </a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><i class="btmspace-30 fa fa-4x fa-resistance"></i>
+          <footer><a class="btn" href="sobrenos">Sobre Nós </a></footer>
+        </article>
+      </li>
+    </ul>
+    
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
+<!-- JAVASCRIPTS --> 
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
