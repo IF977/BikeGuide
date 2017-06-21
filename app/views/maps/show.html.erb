@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @map.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @map.longitude %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @map.address %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @map.description %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @map.title %>
+</p>
+
+<%= link_to 'Edit', edit_map_path(@map) %> |
+<%= link_to 'Back', maps_path %>
+
+<div style='width: 800px;'>
+  <div id="map" style='width: 800px; height: 400px;'></div>
+</div>

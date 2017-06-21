@@ -18,10 +18,11 @@ class UsersController < ApplicationController
     user.crypted_password = password
     
     if user.save
-      flash[:success] = "Bem-vindo ao BikeGuide!"
+      p "Bem-vindo ao BikeGuide!"
       redirect_to sessions_new_path
     else
       render 'new'
+      
     end
   end
 

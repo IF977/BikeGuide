@@ -3,21 +3,18 @@ class SessionsController < ApplicationController
   end
   
   def create
-    user = User.find_by_email(params[:email])
-    if user && user.authenticate(params[:password])
-        sign_in(@user)
-        session[:user_id] = users.id
-        
+    if user = User.authenticar(params['session']['email'],params['session']['password'])
+        #sign_in(@user)
+        session[:user_id] = user.id
           
-        
+        render "pages/perfil"
     else
-        flash.now.alert = "Email ou senha inválidos"
-    render "pages/perfil"
+        p "Email ou senha inválidos"
+        render 'sessions/new'
     end
   end
 
   def destroy
-    sign_out
     session[:user_id] = nil
     redirect_to root_url, notice: "Você saiu do BikeGuide!"
 

@@ -24,8 +24,13 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="fl_right">
       <ul>
         <li><a href='index'><span class="fa fa-lg fa-home"></span></a></li>
+        <% if session[:user_id] != nil %>
+        <% @user = current_user %>
+        <li> Olá, <%= @user.email %></li>
+        <% else %>
         <li><%= link_to "Login", login_path %></li>
         <li><%= link_to "Registrar", new_user_path %></li>
+        <% end %>
       </ul>
     </div>
     <!-- ################################################################################################ --> 
@@ -69,15 +74,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
-  <article id="pageintro" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p><b><h1>Navegue com segurança através da cidade do Recife</h1></b></p>
-    <footer><a class="btn" href="#">Começar</a></footer>
-    <!-- ################################################################################################ --> 
-  </article>
-</div>
-<!-- ################################################################################################ --> 
+<iframe src="https://www.google.com/maps/d/embed?mid=1HCHZx6FTiMuE51TX-4p2f0J_TqQ" width="1366" height="490"></iframe>
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
