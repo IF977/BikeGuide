@@ -9,8 +9,8 @@ class SessionsController < ApplicationController
           
         render "pages/perfil"
     else
-        p "Email ou senha inválidos"
-        render 'sessions/new'
+       p "Email ou senha inválidos"
+       render 'sessions/new'
     end
   end
 

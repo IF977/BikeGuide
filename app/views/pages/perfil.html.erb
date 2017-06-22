@@ -29,6 +29,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <% @user = User.find(session[:user_id]) %>
         <li> Olá, <%= @user.email %></li>
         <% end %>
+         
         <li><%= link_to "Sair", log_out %></li> 
       </ul>
     </div>
@@ -72,7 +73,13 @@ Licence URI: http://www.os-templates.com/template-terms
 </div>
 </body>
 <center><h1>Perfil</h1></center>
-<li><%= link_to 'editar', root_path=%></li>
+    <tr>
+      <td><%= user.nome %></td>
+      <td><%= user.sobrenosnome %></td>
+      <td><%= user.email %></td>
+      
+    </tr>
+<li><%= button_to 'editar', root_path=%></li>
 
 
 <!-- ################################################################################################ --> 
