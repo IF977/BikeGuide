@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170618015142) do
+ActiveRecord::Schema.define(version: 20170621191722) do
 
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  #enable_extension "plpgsql"
 
   create_table "maps", force: :cascade do |t|
     t.float "latitude"
@@ -32,6 +32,15 @@ ActiveRecord::Schema.define(version: 20170618015142) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
+  end
+
+  create_table "usuarios", id: :serial, force: :cascade do |t|
+    t.string "email", limit: 50
+    t.string "senha", limit: 20
+    t.string "nome", limit: 50
+    t.string "CPF", limit: 14
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

@@ -1,4 +1,4 @@
-class CreateMaps < ActiveRecord::Migration[5.1]
+class CreateMaps < ActiveRecord::Migration[5.1.1]
   def change
     create_table :maps do |t|
       t.float :latitude
