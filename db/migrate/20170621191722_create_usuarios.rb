@@ -1,5 +1,5 @@
 
-class CreateUsuarios < ActiveRecord::Migration[5.1.1]
+class CreateUsuarios < ActiveRecord::Migration[5.1]
    def self.up
       create_table :usuarios do |t|
          t.string  :email, :limit => 50

@@ -1,0 +1,14 @@
+D, [2017-06-23T20:24:17.766974 #14822] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-06-23T20:24:17.774312 #14822] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-06-23T20:24:17.776866 #14822] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "production"], ["updated_at", "2017-06-23 20:24:17.774871"], ["key", "environment"]]
+D, [2017-06-23T20:24:17.783289 #14822] DEBUG -- :   [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-06-23T20:25:09.319363 #14865] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-06-23T20:25:09.326122 #14865] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-06-23T20:25:09.327606 #14865] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-06-23T20:27:38.064679 #14910] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-06-23T20:27:38.071802 #14910] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-06-23T20:27:38.073043 #14910] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-06-23T20:38:07.985680 #15146] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2017-06-23T20:38:07.992638 #15146] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2017-06-23T20:38:07.995047 #15146] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "production"], ["updated_at", "2017-06-23 20:38:07.993191"], ["key", "environment"]]
+D, [2017-06-23T20:38:07.998554 #15146] DEBUG -- :   [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
