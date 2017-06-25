@@ -10,8 +10,8 @@ class UsersController < ApplicationController
   end
 
   def create
-    email = params['session']['email']
-    password = params['session']['password']
+    email = params['email']
+    password = params['password']
     
     user = User.new
     user.email = email

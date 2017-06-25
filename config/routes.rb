@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get '/editar' => 'pages#editar'
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
-  post '/signup',  to: 'users#create'
+  post '/users/new',  to: 'users#create'
   get '/perfil' => 'pages#perfil'
   resources :users
   resources :sessions
