@@ -25,10 +25,9 @@ Licence URI: http://www.os-templates.com/template-terms
       <ul>
         
         <li><a href='pages/index'><span class="fa fa-lg fa-home"></span></a></li>
-        <% if session[:user_id] != nil %>
-        <% @user = User.find(session[:user_id]) %>
+        
         <li> Olá, <%= @user.email %></li>
-        <% end %>
+        
          
         <li><%= link_to "Sair", log_out %></li> 
       </ul>
@@ -73,12 +72,7 @@ Licence URI: http://www.os-templates.com/template-terms
 </div>
 </body>
 <center><h1>Perfil</h1></center>
-    <tr>
-      <td><%= user.nome %></td>
-      <td><%= user.sobrenosnome %></td>
-      <td><%= user.email %></td>
-      
-    </tr>
+    
 <li><%= button_to 'editar', root_path=%></li>
 
 
