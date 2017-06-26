@@ -1,11 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  email: MyString
-  crypted_password: MyString
-  salt: MyString
+  provider: MyString
+  uid: MyString
+  name: MyString
+  oauth_token: MyString
+  oauth_expires_at: 2017-06-25 21:25:59
 
 two:
-  email: MyString
-  crypted_password: MyString
-  salt: MyString
+  provider: MyString
+  uid: MyString
+  name: MyString
+  oauth_token: MyString
+  oauth_expires_at: 2017-06-25 21:25:59

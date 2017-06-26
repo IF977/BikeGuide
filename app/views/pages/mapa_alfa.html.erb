@@ -24,12 +24,8 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="fl_right">
       <ul>
         
-        <li><a href='pages/index'><span class="fa fa-lg fa-home"></span></a></li>
-        <% if session[:user_id] != nil %>
-        <% @user = User.find(session[:user_id]) %>
-        <li> Olá, <%= @user.email %></li>
-        <% end %>
-        <li><%= link_to "Sair", log_out %></li> 
+        <li><a href='/index'><span class="fa fa-lg fa-home"></span></a></li>
+      
       </ul>
     </div>
     <!-- ################################################################################################ --> 
@@ -62,75 +58,16 @@ Licence URI: http://www.os-templates.com/template-terms
   <nav id="mainav" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul class="clear">
-      <li class="active"><%= link_to 'Home', root_path =%></li>
-      <li><a href="#">Perfil de Usuário</a></li>
-      <li><a href="#">Histórico</a></li>
-      <li><a href="#">Favoritos</a></li>
-    </ul>
+      <li class="active"><%= link_to 'Mapa Beta', root_path =%></li>
+     
+      </ul>
     <!-- ################################################################################################ --> 
   </nav>
-  <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
 </div>
-</body>
-<div class="container">
-    <h1>Editar Perfil</h1>
-  	<hr>
-	<div class="row">
-      <!-- left column -->
-      
-      
-        
-        <form class="form-horizontal" role="form">
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Nome:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Sobrenome:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
-            </div>
-          </div>
-          
-          <div class="form-group">
-            <label class="col-lg-3 control-label">Email:</label>
-            <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
-            </div>
-          </div>
-          
-          
-          <div class="form-group">
-            <label class="col-md-3 control-label">Senha:</label>
-            <div class="col-md-8">
-              <input class="form-control" type="password" value="">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-md-3 control-label">Confirmar Senha:</label>
-            <div class="col-md-8">
-              <input class="form-control" type="password" value="">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-md-3 control-label"></label>
-            <div class="col-md-8">
-              <input type="button" class="btn btn-primary" value="Salvar">
-              <span></span>
-              <input type="reset" class="btn btn-default" value="Cancelar">
-            </div>
-          </div>
-        </form>
-      </div>
-  </div>
-</div>
-<hr>
-
-
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<iframe src="https://www.google.com/maps/d/embed?mid=1HCHZx6FTiMuE51TX-4p2f0J_TqQ" width="100%" height="500"></iframe>
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ -->

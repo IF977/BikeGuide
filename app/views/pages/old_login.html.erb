@@ -12,6 +12,9 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all" id="Teste">
+<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
 </head>
 <body id="top">
 <!-- ################################################################################################ --> 
@@ -23,8 +26,10 @@ Licence URI: http://www.os-templates.com/template-terms
 
     <div class="fl_right">
       <ul>
+        
         <li><a href='index'><span class="fa fa-lg fa-home"></span></a></li>
-       
+        <li><%= link_to "Login", login_path %></li>
+        <li><%= link_to "Registrar", new_user_path %></li>
       </ul>
     </div>
     <!-- ################################################################################################ --> 
@@ -58,7 +63,9 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <ul class="clear">
       <li class="active"><%= link_to 'Home', root_path =%></li>
-     
+      <li><a href="#">Perfil de Usuário</a></li>
+      <li><a href="#">Histórico</a></li>
+      <li><a href="#">Favoritos</a></li>
     </ul>
     <!-- ################################################################################################ --> 
   </nav>
@@ -66,15 +73,17 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ -->
-<h2><p><b><center>Sobre nós</center></b></p></h2>
-<body><center>Somos um grupo de alunos de graduação do curso de Sistemas de Informação</body></center> 
-<body><center>da Universidade Federal de Pernambuco, que se uniram para promover a criação</body></center> 
-<body><center>de uma aplicação web, estimulados por uma atividade acadêmica da disciplina</body></center>
-<body><center>de Engenharia de Software, que visa propor aos ciclistas da Cidade do Recife</body></center>
-<body><center>um novo e inovador mecanismo de busca. O BikeGuide tem como proposta levar</body></center>
-<body><center>aos apaixonados por ciclismo urbano, rotas pela Cidade para melhor conhece-la,</body></center>
-<body><center>com a opção de escolher por quais pontos turisticos o usuário deseja visitar</body></center> 
-<body><center>quando for percorrer a sua rota. </center></body>
+<div>
+    <% if current_user %>
+        Signed in as <strong><%= current_user.name %></strong>!
+        <%= link_to "Sign out", signout_path, id: "sign_out" %>
+      <% else %>
+        <%= link_to "Sign in with Google", "/auth/google_oauth2", id: "sign_in" %>
+      <% end %>
+</div>
+<div>
+<%= yield %>
+</div>
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ -->

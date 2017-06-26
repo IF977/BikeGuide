@@ -1,20 +1,16 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
 
   root 'pages#index'
   get 'index' => 'pages#index'
   get 'pages/index' => 'pages#index'
   get 'pages/contato' => 'pages#contato'
   get 'pages/sobrenos' => 'pages#sobrenos'
-  get    '/signup',  to: 'users#new'
-  get '/login', to: 'sessions#new'
-  get '/editar' => 'pages#editar'
-  post   '/login',   to: 'sessions#create'
-  delete '/logout',  to: 'sessions#destroy'
-  post '/users/new',  to: 'users#create'
+  get 'pages/mapa_alfa' => 'pages#mapa_alfa'
   get '/perfil' => 'pages#perfil'
-  resources :users
-  resources :sessions
+  get 'auth/:provider/callback',  to: 'sessions#create'
+  get 'logout',                   to: 'sessions#destroy'
+  get 'auth/:provider', to: 'sessions#create'
+
   
 end
  
